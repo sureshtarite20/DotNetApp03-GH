@@ -1,9 +1,0 @@
-name: CI
-on:
-  workflow_dispatch: 
-jobs:
-  print_sayhello:
-    runs-on: ubuntu:latest
-    steps:
-      - name: sayHello
-        run: echo "sayhello"
